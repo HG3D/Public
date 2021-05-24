@@ -4,7 +4,7 @@
 		"Base Humans": [2, 0],
 		"Base Clothes": [2, 0],
 		"Base Hair": [2, 0],
-		"Base Poses": [1, 0] 
+		"Base Poses": [1, 1] 
 		},		
 	"required_cpacks":{
 		"[2, 0]": {
