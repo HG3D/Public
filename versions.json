@@ -2,15 +2,14 @@
 	"latest_addon": [2, 0, 0],
 	"latest_cpacks": {
 		"Base Humans": [2, 0],
-		"Base Clothes": [2, 0],
-		"Base Hair": [2, 0],
+		"Base Clothes": [1, 0],
+		"Base Hair": [1, 0],
 		"Base Poses": [1, 1] 
+		"Uncensored Textures": [1, 0] 
 		},		
 	"required_cpacks":{
 		"[2, 0]": {
 			"Base Humans": [2, 0],
-			"Base Clothes": [2, 0],
-			"Base Hair": [2, 0]
 			}
 		}
 }
