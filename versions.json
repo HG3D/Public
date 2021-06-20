@@ -26,6 +26,15 @@
 				"Click here to select icon not loading",
 				"Console warnings and errors about preview collections"
 				]
+			},
+		"2, 0, 3": {
+			"Features": [
+				"New starting humans"
+				],
+			"Bugfixes": [
+				"Saving custom shapekeys not working",
+				"Length changing made the human float"
+				]
 			}
 	}
 }
