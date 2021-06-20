@@ -4,13 +4,28 @@
 		"Base Humans": [2, 0],
 		"Base Clothes": [2, 1],
 		"Base Hair": [1, 0],
-		"Base Poses": [1, 0], 
-		"Uncensored Textures": [1, 0] 
-		},		
-	"required_cpacks":{
+		"Base Poses": [1, 0],
+		"Uncensored Textures": [1, 0]
+	},
+	"required_cpacks": {
 		"[2, 0]": {
 			"Base Humans": [2, 0],
 			"Base Clothes": [2, 1]
-			}
 		}
+	},
+	"addon_updates": {
+		"[2, 0, 4]": {
+			"Features": [
+				"New starting humans",
+				"10 new face texture sets",
+				"Content pack creator/editor"
+				],
+			"Bugfixes": [
+				"Saving custom shapekeys not working",
+				"Length changing made the human float",
+				"Click here to select icon not loading",
+				"Console warnings and errors about preview collections"
+				]
+			}
+	}
 }
