@@ -1,19 +1,36 @@
 {
-	"latest_addon": [2, 0, 4],
+	"latest_addon": [2, 0, 7],
 	"latest_cpacks": {
-		"Base Humans": [2, 2],
-		"Base Clothes": [2, 1],
+		"Base Humans": [2, 4],
+		"Base Clothes": [2, 2],
 		"Base Hair": [1, 0],
-		"Base Poses": [1, 0],
-		"Uncensored Textures": [1, 0]
+		"Base Poses": [1, 1]
 	},
 	"required_cpacks": {
 		"[2, 0]": {
-			"Base Humans": [2, 0],
+			"Base Humans": [2, 4],
 			"Base Clothes": [2, 1]
 		}
 	},
 	"addon_updates": {
+		"2, 0, 7": {
+			"Features": [
+				"Full release version of Human Generator V2",
+				"More efficient memory management (purging unused meshes and textures)",
+				"Added 'Prepare for ARKit' operator",
+				"Updated QuickStart tutorial",
+				"Added ARKit tutorial in Facial Rig section",
+				"Added tutorials for making custom content and cpack editor",
+				"Added saturation slider for skin textures",
+				"Add ability to add geometry masks in Mesh->Cloth panel"
+				],
+			"Bugfixes": [
+				"Individual scaling sliders are now refreshed automatically",
+				"Hair thubnails now saved in the correct place",
+				"Fixes for 'Save custom outfits' operators",
+				"Fixed some hidden console warnings and errors"
+				]
+			},
 		"2, 0, 4": {
 			"Features": [
 				"New starting humans",
