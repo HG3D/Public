@@ -1,5 +1,5 @@
 {
-	"latest_addon": [2, 0, 7],
+	"latest_addon": [2, 0, 8],
 	"latest_cpacks": {
 		"Base Humans": [2, 4],
 		"Base Clothes": [2, 2],
@@ -13,6 +13,21 @@
 		}
 	},
 	"addon_updates": {
+		"2, 0, 8": {
+			"Features": [
+				"New universal hair shader that works in Eevee and Cycles. You can switch shaders in the hair material section",
+				"Added button in developer tools for adding new hair shader to humans created with earlier versions"
+				],
+			"Bugfixes": [
+				"Tongue not working on Rigify face rig",
+				"1-Click expressions reset the body shape when clothing was loaded before",
+				"Apply modifiers operator removed the ARKit shape keys even when keep-shapekeys was selected",
+				"Multiple bugfixes for custom clothing creation",
+				"The face rig for Rigify bones could move in all directions instead of just their active axis",
+				"Weird results when you added the face rig after already having 1-click expressions",
+				"The hair section in the finalize phase wouldn't show up if only eyebrows and eyelashes were present"
+				]
+			},
 		"2, 0, 7": {
 			"Features": [
 				"Full release version of Human Generator V2",
