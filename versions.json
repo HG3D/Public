@@ -1,5 +1,5 @@
 {
-	"latest_addon": [2, 0, 8],
+	"latest_addon": [2, 0, 9],
 	"latest_cpacks": {
 		"Base Humans": [2, 4],
 		"Base Clothes": [2, 2],
@@ -13,6 +13,15 @@
 		}
 	},
 	"addon_updates": {
+		"2, 0, 9": {
+			"Features": [
+				"New 'Extra outfits' content pack with more female specific outfits and more special outfits",
+				"The 2.0.9 add-on update and HG_CP_Extra_Outfits are required downloads for the new extra outfits pack"
+				],
+			"Bugfixes": [
+				"Custom clothing deformed incorrectly (you have to re-save custom clothing for this fix to be effective)"
+				]
+			},
 		"2, 0, 8": {
 			"Features": [
 				"New universal hair shader that works in Eevee and Cycles. You can switch shaders in the hair material section",
