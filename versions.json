@@ -1,18 +1,41 @@
 {
-	"latest_addon": [2, 0, 9],
+	"latest_addon": [3, 0, 2],
 	"latest_cpacks": {
-		"Base Humans": [2, 4],
-		"Base Clothes": [2, 2],
-		"Base Hair": [1, 0],
-		"Base Poses": [1, 1]
+		"Base Humans": [3, 0],
+		"Base Clothes": [3, 0],
+		"Base Hair": [3, 0],
+		"Base Poses": [3, 0],
+		"Extra Outfits": [3, 0]
 	},
 	"required_cpacks": {
 		"[2, 0]": {
 			"Base Humans": [2, 4],
 			"Base Clothes": [2, 1]
+		},
+		"[3, 0]": {
+			"Base Humans": [3, 0],
+			"Base Clothes": [3, 0],
+			"Extra Outfits": [3, 0]
 		}
 	},
 	"addon_updates": {
+		"3, 0, 2": {
+			"Features": [
+				"Human Generator V3 is here! It's a free update for everyone that owns a copy of Human Generator!",
+				"New 'Batch Mode': Quickly generate a lot of humans at once, configurable with settings.",
+				"The batch mode includes settings for very optimised humans, so you can have a lot in your scene with minimal slowdown.",
+				"Many new hairstyles and many updated hairstyles! We also included more long hairstyles.",
+				"Improved hair shader with more realistic color and support for dyed hair",
+				"Human Generator Python API! You can now control Human Generator with Python.",
+				"New documentation page. We are still working on this one, but you can already visit in by going to humgen3d.com and going to support.",
+				"Many new poses to go along with the batch mode!",
+				"New corrective shapekey to correct for the knees getting too thin when turned 90 degrees or further.",
+				"Tips & Suggestions interface right inside Blender. We will keep adding more tips here over time."
+				],
+			"Bugfixes": [
+				"Many small bugfixes, I kind of lost count."
+				]
+			},		
 		"2, 0, 9": {
 			"Features": [
 				"New 'Extra outfits' content pack with more female specific outfits and more special outfits",
