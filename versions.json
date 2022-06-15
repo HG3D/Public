@@ -1,5 +1,5 @@
 {
-	"latest_addon": [3, 0, 2],
+	"latest_addon": [3, 0, 3],
 	"latest_cpacks": {
 		"Base Humans": [3, 0],
 		"Base Clothes": [3, 0],
@@ -19,6 +19,15 @@
 		}
 	},
 	"addon_updates": {
+		"3, 0, 3": {
+			"Features": [
+				"This is a hotfix release for Blender 3.2, no features are included."
+			],
+			"Bugfixes": [
+				"Fixed an error that occurred during batch generation",
+				"Fix for renamed icon in Blender 3.2, which caused the eyebrows panel not to show up."
+			]
+		},		
 		"3, 0, 2": {
 			"Features": [
 				"Human Generator V3 is here! It's a free update for everyone that owns a copy of Human Generator!",
