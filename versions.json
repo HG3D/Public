@@ -1,5 +1,5 @@
 {
-	"latest_addon": [3, 0, 3],
+	"latest_addon": [3, 0, 5],
 	"latest_cpacks": {
 		"Base Humans": [3, 0],
 		"Base Clothes": [3, 0],
@@ -19,6 +19,14 @@
 		}
 	},
 	"addon_updates": {
+		"3, 0, 5": {
+			"Features": [
+				"This is a hotfix release for Blender 3.4, no features are included."
+			],
+			"Bugfixes": [
+				"Fixed an error that occurred during the creation of a new human in Blender 3.4"
+			]
+		},	
 		"3, 0, 3": {
 			"Features": [
 				"This is a hotfix release for Blender 3.2, no features are included."
