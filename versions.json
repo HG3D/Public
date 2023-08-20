@@ -1,10 +1,10 @@
 {
-	"latest_addon": [3, 0, 3],
+	"latest_addon": [4, 0, 14],
 	"latest_cpacks": {
-		"Base Humans": [3, 0],
-		"Base Clothes": [3, 0],
-		"Base Hair": [3, 0],
-		"Base Poses": [3, 0],
+		"Base Humans": [4, 1],
+		"Base Clothes": [4, 1],
+		"Base Hair": [4, 1],
+		"Base Poses": [4, 0],
 		"Extra Outfits": [3, 0]
 	},
 	"required_cpacks": {
@@ -16,9 +16,53 @@
 			"Base Humans": [3, 0],
 			"Base Clothes": [3, 0],
 			"Extra Outfits": [3, 0]
+		},
+		"[4, 0]": {
+			"Base Humans": [4, 0],
+			"Base Clothes": [4, 0],
+			"Base Hair": [4, 0]
 		}
 	},
 	"addon_updates": {
+		"4, 0, 14": {
+			"Features": [
+				"This is the official V4 release of Human Generator! If you're already using v4.0.13 this update is just a formality, it only adds tab renaming. For everyone on an older version, this is what's new:",
+				"No more creation/finalize phase restriction!",
+				"Now all functionality is available at any time! You can for example still change the body proportions and height of the human after adding clothing.",
+				"New age system!",
+				"You can now make your humans look older and younger than you could before, with full body ageing.",
+				"More varied starting humans.",
+				"These new options will allow you to have more defined characters more quickly.",
+				"Super powerful new API.",
+				"Basically the whole add-on now runs on a behind the scenes API. This means almost every functionality of the add-on is quickly accessible through our new Human class.",
+				"7 new hair systems intended for aged humans.",
+				"Automatic haircards generation.",
+				"For when you want to use the humans in software that doesn't support particle hair, or you find particle hair to be too heavy for your use case.",
+				"LOD generation.",
+				"Want to have lower resolution meshes? Use our new LOD generation feature, found in the processing menu.",
+				"And more \"Process\" tools!",
+				"Like custom scripts using our new API, renaming objects, materials, bones etc.",
+				"Other big changes.",
+				"New interface.",
+				"To accommodate the many options you have now the creation/finalize phase are gone, we reworked the interface to give you quicker access.",
+				"Batch Humans are now fully editable.",
+				"You can change anything you can on a regular human.",
+				"Many new body proportion sliders.",
+				"Like muscles, limb lengths and even stylized characters!",
+				"New eye sliders.",
+				"Like eye scale, eye distance, eye depth.",
+				"And much more!",
+				"Save almost every edit as a starting human, including hair, clothing, body changes etc.",
+				"Save your own custom diffuse textures",
+				"Much easier saving of shape keys to the library",
+				"Improved way of adding custom clothing",
+				"Manage custom content (delete, edit, etc.) with the Content Overview",
+				"Much wider ranges for sliders. Almost every slider can be pushed from -10 to +10"
+			],
+			"Bugfixes": [
+				"Too many to count."
+			]	
+		},
 		"3, 0, 3": {
 			"Features": [
 				"This is a hotfix release for Blender 3.2, no features are included."
