@@ -1,5 +1,5 @@
 {
-	"latest_addon": [4, 0, 14],
+	"latest_addon": [4, 0, 15],
 	"latest_cpacks": {
 		"Base Humans": [4, 1],
 		"Base Clothes": [4, 1],
@@ -24,6 +24,14 @@
 		}
 	},
 	"addon_updates": {
+		"4, 0, 15": {
+			"Features": [
+				"This is a hotfix release for Blender 4.0, no features are included."
+			],
+			"Bugfixes":[
+				"Compatibility with Blender 4.0 official release."
+			]
+		},
 		"4, 0, 14": {
 			"Features": [
 				"This is the official V4 release of Human Generator! If you're already using v4.0.13 this update is just a formality, it only adds tab renaming. For everyone on an older version, this is what's new:",
